@@ -19,8 +19,8 @@ class School
   def sort 
     #roster.sort.to_h.each { |key, value| value.sort!}
     roster.each { |key, value|
-  value.sort!
-}
+      value.sort!
+    }
   end
 
 end
